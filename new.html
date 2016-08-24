@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<title>新電感應</title>
+  <!--Facebook-->
+  <meta property="og:title" content="松濤電台" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://radio.pinewave.tw/event/new.html" />
+  <link href="http://radio.pinewave.tw/event/image/PinewaveRadio.jpg" rel="image_src" type="image/jpeg">
+  <meta property="og:description" content="松濤電台 - 專屬於中大人的好聲音" />
+  <meta property="og:site_name" content="松濤電台 Pinewave Radio" />
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<!--Include the jPlayer skin-->
+	<link type="text/css" href="skin/blue.monday/css/jplayer.blue.monday.min.css" rel="stylesheet" />
+	<!--Include jPlayer-->
+	<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+  <!--jPlayer-->
+  <script type="text/javascript" src="js/player-volume.js"></script>
+  <script type="text/javascript" src="js/player-live.js"> </script>
+
+  <!--LOGO-->
+  <link rel="icon" href="image/logo.png" type="image/ico"/>
+  <!--My files-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+
+<body>
+
+<!--container-->
+<div id="content">
+
+	<!--nav-->
+	<div id="pinewave" onclick="window.open('http://radio.pinewave.tw/');" title="這裡也可以聽節目Live唷~!"></div>
+	<div id="facebook" onclick="window.open('https://www.facebook.com/pinewave/timeline');" title="快來幫我們按讚><"></div>
+	<div id="ncufresh" onclick="window.open('http://ncufresh.ncu.edu.tw/');" title="新鮮人必讀,緊來尋寶!"></div>
+	<div id="counsel" onclick="window.open('http://love.adm.ncu.edu.tw/NCU_Counsel/');" title="諮商中心永遠為您敞開大門,歡迎同學們的到來"></div>
+	<div id="ncu" onclick="window.open('http://www.ncu.edu.tw/');" title="Welcome to National Central University"></div>
+
+	<!--google forms-->
+	<a id="googleform" class="waves-effect waves-light btn modal-trigger" href="#modal1" title="小提示:當天24點關閉問券"></a>
+  	<div id="modal1" class="modal modal-fixed-footer" style="max-height:720px; height:80%;">
+    	<div class="modal-content">
+			<ul class="collection with-header">
+				<li class="collection-header">
+					<blockquote><h4>問券連結</h4></blockquote>
+				</li>
+        		<li class="collection-item">
+        			<a href="https://docs.google.com/forms/d/18URosw3QxNfdb3eegPmcecc43XSCnjUK66QbopXlzzs/viewform?usp=send_form" class="collection-item" target="view_window">12/14 異中人 </a>
+        		</li>
+        		<li class="collection-item">
+        			<a href="https://docs.google.com/forms/d/13kYhu7WWcTT7tuSNqyw5IMZSmo-50amq7PkdzJM51Jc/viewform?usp=send_form" class="collection-item" target="view_window">12/15 室友沒有搞錯!? </a>
+        		</li>
+        		<li class="collection-item">
+        			<a href="https://docs.google.com/forms/d/1Z6F3ULYSfO9OB4P257nWcNUqSpgItWDe2ECfwOEmMto/viewform?usp=send_form" class="collection-item" target="view_window">12/16 寫給校園某處的你 </a>
+        		</li>
+        		<li class="collection-item">
+        			<a href="https://docs.google.com/forms/d/1enrPbZIv2qC29Wlzcmmk0_ORSWDyfw2FTZ6PXllLjRE/viewform" class="collection-item" target="view_window">12/17 中大生息 </a>
+        		</li>
+        		<li class="collection-item">
+        			<a href="https://docs.google.com/forms/d/1fHM4o25RIYX4s9bqN9s_mpFeOBzW3oUq8hTzkLNF4zE/viewform?usp=send_form" class="collection-item" target="view_window">12/18 奇人感應大蒐羅 </a>
+        		</li>
+      		</ul>
+    	</div>
+    	<div class="modal-footer">
+      		<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    	</div>
+  	</div>
+
+ 	<!--player button-->
+  <div id="p1" class="play-button" data-program-id="122" data-volume-id="484" data-title="12/14異中人">
+    <img src="image/start.png" title="重播-12/14-點一下即可播放">
+  </div>
+	<div id="p2" class="play-button" data-program-id="122" data-volume-id="485" data-title="12/15室友沒有搞錯!?">
+		<img src="image/start.png" title="重播-12/15-點一下即可播放">
+	</div>
+	<div id="p3" class="play-button" data-program-id="122" data-volume-id="486" data-title="12/16寫給校園某處的你">
+		<img src="image/start.png" title="重播-12/16-點一下即可播放">
+	</div>
+	<div id="p4" class="play-button" data-program-id="122" data-volume-id="487" data-title="12/17中大生息">
+		<img src="image/start.png" title="重播-12/17-點一下即可播放">
+	</div>
+	<div id="p5" class="play-button" data-program-id="122" data-volume-id="488" data-title="12/18奇人感應大蒐羅">
+		<img src="image/start.png" title="重播-12/18-點一下即可播放">
+	</div>
+  <div id="live-play-button">
+    <img src="image/pbig2.png" title="Live-點一下即可播放" onmouseover="src='image/pbig.png'" onmouseout="src='image/pbig2.png'" width="50px" height="50px">
+  </div>
+
+  <!--player-->
+  <div id="volume_player" class="player-hidden" data-status="closed" style="display: none;">
+    <div id="jquery_jplayer_volume" class="jp-jplayer"></div>
+    <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+      <div class="jp-type-single">
+        <div class="jp-gui jp-interface">
+          <div class="jp-controls-holder">
+            <div class="jp-controls">
+              <button class="jp-play" role="button" tabindex="0">play</button>
+              <button class="jp-stop" role="button" tabindex="0">stop</button>
+            </div>
+            <div class="jp-progress">
+              <div class="jp-seek-bar">
+                <div class="jp-play-bar"></div>
+              </div>
+            </div>
+            <div class="jp-volume-controls">
+              <button class="jp-mute" role="button" tabindex="0">mute</button>
+              <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+              <div class="jp-volume-bar">
+                <div class="jp-volume-bar-value"></div>
+              </div>
+            </div>
+          </div>
+          <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+          <div class="jp-duration">&nbsp;</div>
+        </div>
+        <div class="jp-no-solution">
+          <span>Update Required</span>
+          To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--live player-->
+  <div id="live_player" style="display: none;">
+    <div id="jquery_jplayer_live" class="jp-jplayer"></div>
+    <div id="jp_container_2" class="jp-audio-stream" role="application" aria-label="media player">
+      <div class="jp-type-single">
+        <div class="jp-gui jp-interface">
+          <div class="jp-controls">
+            <button class="jp-play" role="button" tabindex="0">play</button>
+          </div>
+          <div class="jp-volume-controls">
+            <button class="jp-mute" role="button" tabindex="0">mute</button>
+            <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+            <div class="jp-volume-bar">
+              <div class="jp-volume-bar-value" style="width: 80%;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="jp-no-solution" style="display: none;">
+          <span>Update Required</span>
+          To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+body {
+	
+	background-image: url('../image/background.png');
+	background-repeat:no-repeat;
+	background-color: #FFFFFF;
+	
+	width: 1255px;
+	height: 1235px;
+}
+
+#content{
+	position: relative;
+}
+#jp_container_1{
+	position:absolute;
+	top:54px;
+	left:495px;
+}
+#jp_container_2{
+	position:absolute;
+	top:54px;
+	left:495px;
+}
+#live-play-button{
+	position:absolute;
+	top:60px;
+	left:435px;
+	cursor: pointer;
+}
+#pinewave{
+	width:185px;
+	height:35px;
+	position:absolute;
+	top:165px;
+	left:150px;
+	cursor: pointer;
+}
+
+#facebook{
+	width:160px;
+	height:35px;
+	position:absolute;
+	top:165px;
+	left:340px;
+	cursor: pointer;
+}
+
+#ncufresh{
+	width:154px;
+	height:35px;
+	position:absolute;
+	top:165px;
+	left:950px;
+	cursor: pointer;
+}
+
+#counsel{
+	width:119px;
+	height:35px;
+	position:absolute;
+	top:165px;
+	left:700px;
+	cursor: pointer;
+}
+
+#ncu{
+	width:125px;
+	height:35px;
+	position:absolute;
+	top:165px;
+	left:825px;
+	cursor: pointer;
+}
+#googleform{
+	width:190px;
+	height:40px;
+	position:absolute;
+	top:160px;
+	left:500px;
+
+	opacity: 0;
+}
+
+#googleform:hover{
+	opacity: 0.3;
+}
+
+#p1{
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:320px;
+	left:215px;
+	cursor: pointer;
+}
+#p2{
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:320px;
+	left:380px;
+	cursor: pointer;
+}
+#p3{
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:320px;
+	left:550px;
+	cursor: pointer;
+}
+#p4{
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:320px;
+	left:720px;
+	cursor: pointer;
+}
+#p5{
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:320px;
+	left:890px;
+	cursor: pointer;
+}
+
+#p1:hover,#p2:hover,#p3:hover,#p4:hover,#p5:hover{
+	opacity: 0.75;
+	transform: scale(1.25);
+	transition: all 0.5s linear;
+}
